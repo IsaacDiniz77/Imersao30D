@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imersao30D - Transforme sua Vida em 30 Dias</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com ">
+    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300 ;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary-color: #12bcda;
@@ -34,7 +34,7 @@
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--text-primary);
-    background: url('https://i.ibb.co/mFJKg5Mx/Whats-App-Image-2025-12-15-at-22-52-14.jpg') no-repeat center center/cover fixed;
+    background: url('https://i.ibb.co/mFJKg5Mx/Whats-App-Image-2025-12-15-at-22-52-14.jpg ') no-repeat center center/cover fixed;
     position: relative;
     overflow-x: hidden;
 }
@@ -52,7 +52,7 @@ body::before {
 
 /* Overlay mais escuro no modo escuro */
 body.dark-mode::before {
-    background: url('https://i.ibb.co/mFJKg5Mx/Whats-App-Image-2025-12-15-at-22-52-14.jpg') no-repeat center center/cover fixed;
+    background: url('https://i.ibb.co/mFJKg5Mx/Whats-App-Image-2025-12-15-at-22-52-14.jpg ') no-repeat center center/cover fixed;
 }
 
 body::before {
@@ -501,7 +501,7 @@ body::before {
             color: var(--text-secondary);
         }
 
-        /* Dark Mode Toggle */
+        /* Dark Mode Toggle - AGORA FIXO NO CANTO INFERIOR DIREITO */
         .dark-mode-toggle {
             position: fixed;
             bottom: 2rem;
@@ -514,9 +514,9 @@ body::before {
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: var(--shadow-1);
-            transition: all 0.3s ease;
-            z-index: 1000;
+            box-shadow: 0 6px 20px rgba(0,0,0,.25);
+            transition: transform .3s ease;
+            z-index: 9999;
         }
 
         .dark-mode-toggle:hover {
@@ -552,6 +552,14 @@ body::before {
 
             .pricing-card.featured {
                 transform: none;
+            }
+            
+            /* Ajuste do botão no mobile */
+            .dark-mode-toggle {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                width: 45px;
+                height: 45px;
             }
         }
 
@@ -693,38 +701,41 @@ body::before {
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <div class="feature-icon">🚀</div>
-                    <h3>Método Acelerado</h3>
-                    <p>Dieta individual e personalizada para 30 dias</p>
+                    <h3>Método Estruturado 30D</h3>
+                    <p>Nada de fórmulas genéricas.
+Você seguirá um método estruturado, baseado em ciência, estratégia e individualidade, desenvolvido por profissionais que atuam diariamente com emagrecimento e performance.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
                     <div class="feature-icon">👥</div>
-                    <h3>Comunidade Ativa</h3>
-                    <p>Treino individualizado</p>
+                    <h3>Comunidade Ativa e Guiada</h3>
+                    <p>Você não estará sozinha(o).
+Durante a imersão, fará parte de uma comunidade ativa, com pessoas que compartilham o mesmo objetivo e recebem direcionamento constante para manter foco, disciplina e constância.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
                     <div class="feature-icon">📚</div>
-                    <h3>Conteúdo Exclusivo</h3>
-                    <p>Suplementação personalizada</p>
+                    <h3>Conteúdo Exclusivo e Aplicável</h3>
+                    <p>Acesso a conteúdos exclusivos, pensados para educar, orientar e destravar resultados, indo além de dieta e treino.
+Aqui, você entende o processo — e não apenas executa.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
                     <div class="feature-icon">🎯</div>
-                    <h3>Metas Claras</h3>
-                    <p>Estabeleça objetivos definidos e acompanhe seu progresso com nosso sistema de acompanhamento inteligente.</p>
+                    <h3>Metas Claras e Acompanhamento</h3>
+                    <p>Desde o início, você terá metas bem definidas, com acompanhamento contínuo da sua evolução física, comportamental e de desempenho ao longo dos 30 dias.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
                     <div class="feature-icon">💪</div>
-                    <h3>Suporte Personalizado</h3>
-                    <p>Conte com mentores especializados que vão guiar você em cada etapa da sua transformação.</p>
+                    <h3>Suporte Profissional Personalizado</h3>
+                    <p>Você contará com o suporte direto de uma equipe multidisciplinar, preparada para ajustar estratégias, tirar dúvidas e orientar cada etapa da sua transformação.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
                     <div class="feature-icon">🏆</div>
                     <h3>Certificado de Conclusão</h3>
-                    <p>Receba um certificado ao final da imersão, comprovando sua dedicação e novo conhecimento adquirido.</p>
+                    <p>Ao final da imersão, você receberá um certificado de conclusão, simbolizando seu comprometimento, disciplina e a mudança construída ao longo dos 30 dias.</p>
                 </div>
             </div>
         </div>
@@ -754,58 +765,130 @@ body::before {
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2 class="section-title fade-in">Escolha Seu Plano</h2>
-            <p class="section-subtitle fade-in">Opções flexíveis para todos os perfis e orçamentos</p>
-            
-            <div class="pricing-grid">
-                <div class="pricing-card featured fade-in">
-                    <h3>Consulta Farmacéutica com Monnaliza Diniz</h3>
-                    <div class="price">R$ 250<span></span></div>
-                    <ul class="pricing-features">
-                        <li>Análise do sono, intestino, alimentação e rotina.</li>
-                        <li>Abordagem Personalizada com foco em emagrecimento saudável e/ou hipertrofia.</li>
-                        <li>Avaliação de exames laboratorias. (quando necessário)</li>
-                        <li>Estratégias seguras e individualizadas, pensadas para o seu momento atual.</li>
-                        <li>Tudo isso com um olhar clínico, baseado em ciência e resultado sem promessa milagrosas, mas com compromisso real com sua evolução.</li>
-                    </ul>
-                    <a href="#" class="cta-button">Começar Agora</a>
-                </div>
-                
-                <div class="pricing-card fade-in">
-                    <h3>Atendimento Nutricional com Joice Soares</h3>
-                    <div class="price">R$ 250<span></span></div>
-                    <ul class="pricing-features">
-                        <li>Avaliação Corporal</li>
-                        <li>Nutrição Clínica</li>
-                        <li>Reeducação Alimentar</li>
-                        <li>Emagrecimento</li>
-                        <li>Hipertrofia</li>
-                        <li>Plano Alimentar Personalizado</li>
-                        <li>acompanhamento pós Consulta</li>
-                    </ul>
-                    <a href="#" class="cta-button">Começar Agora</a>
-                </div>
-                
-                <div class="pricing-card fade-in">
-                    <h3>Empresarial</h3>
-                    <div class="price">R$ 997<span>/mês</span></div>
-                    <ul class="pricing-features">
-                        <li>Todo o conteúdo profissional</li>
-                        <li>Treinamento em equipe</li>
-                        <li>Consultoria personalizada</li>
-                        <li>Relatórios de progresso</li>
-                        <li>Sessões privadas mensais</li>
-                        <li>Acesso a eventos exclusivos</li>
-                        <li>Parcerias e descontos</li>
-                    </ul>
-                    <a href="#" class="cta-button">Contate-nos</a>
-                </div>
-            </div>
+   <!-- Pricing Section -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <h2 class="section-title fade-in">Escolha Seu Plano</h2>
+        <p class="section-subtitle fade-in">Opções flexíveis para todos os perfis e orçamentos</p>
+
+        <!-- ===== MONNALIZA ===== -->
+<div class="pricing-card fade-in">
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <img src="https://i.ibb.co/PGhtxxzm/Whats-App-Image-2025-12-17-at-14-29-24.jpg "
+             alt="Monnaliza Diniz"
+             style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary-color);">
+        <h3>Consulta Farmacêutica com Monnaliza Diniz</h3>
+    </div>
+    <div class="price">R$ 250</div>
+    <ul class="pricing-features">
+        <li>Análise do sono, intestino, alimentação e rotina.</li>
+        <li>Abordagem Personalizada com foco em emagrecimento saudável e/ou hipertrofia.</li>
+        <li>Avaliação de exames laboratoriais (quando necessário).</li>
+        <li>Estratégias seguras e individualizadas.</li>
+    </ul>
+    <a href="#" class="cta-button">Começar Agora</a>
+</div>
+
+<!-- ===== JOICE ===== -->
+<div class="pricing-card fade-in">
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <img src="https://i.ibb.co/Q7JB4Qt0/Whats-App-Image-2025-12-17-at-14-27-42.jpg "
+             alt="Joice Soares"
+             style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary-color);">
+        <h3>Atendimento Nutricional com Joice Soares</h3>
+    </div>
+    <div class="price">R$ 250</div>
+    <ul class="pricing-features">
+        <li>Avaliação Corporal</li>
+        <li>Nutrição Clínica & Reeducação Alimentar</li>
+        <li>Emagrecimento & Hipertrofia</li>
+        <li>Plano Alimentar Personalizado</li>
+    </ul>
+    <a href="#" class="cta-button">Começar Agora</a>
+</div>
+
+<!-- ===== PROFESSOR ===== -->
+<div class="pricing-card fade-in">
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <img src="https://i.ibb.co/hxZqNRLr/Whats-App-Image-2025-12-17-at-14-27-42-1.jpg "
+             alt="Professor"
+             style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary-color);">
+        <h3>Professor / Treinador</h3>
+    </div>
+    <div class="price">R$ 150</div>
+    <ul class="pricing-features">
+        <li>Hipertrofia, Emagrecimento, Performance</li>
+        <li>Reabilitação (Joelho), Gestante</li>
+        <li>Hidroginástica, Fortalecimento</li>
+        <li>Atendimento em Academia ou Domicílio</li>
+    </ul>
+    <a href="#" class="cta-button">Começar Agora</a>
+</div>
+
+            <!-- Plano Completo Imersão 30D -->
+<div class="pricing-card fade-in" style="position: relative;">
+    <!-- Badge de desconto -->
+    <span style="
+        position: absolute;
+        top: -15px;
+        right: 20px;
+        background: #ef4444;
+        color: #fff;
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        box-shadow: 0 4px 10px rgba(239, 68, 68, 0.4);
+        z-index: 2;
+    ">
+        -71%
+    </span>
+
+    <!-- 🆕 Imersão 30D Completo – estilo "landing de curso" -->
+<div class="pricing-card featured fade-in" style="position: relative; text-align: center;">
+    <!-- Badge desconto -->
+    <span style="
+        position: absolute;
+        top: -15px;
+        right: 20px;
+        background: #ef4444;
+        color: #fff;
+        padding: 0.4rem 0.9rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        box-shadow: 0 4px 12px rgba(239,68,68,.35);
+        z-index: 2;
+    "></span>
+
+    <!-- Título -->
+    <h3 style="margin-bottom: .5rem;">Imersão 30D Completa</h3>
+
+    <!-- Preços -->
+    <div style="margin-bottom: 1.2rem;">
+        <span style="color: #ef4444; text-decoration: line-through; font-size: 1rem;">De R$ 699,90</span>
+        <div style="color: #12bcda; font-size: 2.5rem; font-weight: 800; line-height: 1;">
+            Por R$ 199,90
         </div>
-    </section>
+        <div style="font-size: .9rem; color: var(--text-secondary);">
+            ou R$ 6,66 Por DIA!
+        </div>
+    </div>
+
+    <!-- Benefícios -->
+    <ul class="pricing-features" style="text-align: left; margin: 1.2rem 0;">
+        <li>250 h de certificação</li>
+        <li>10 módulos completos</li>
+        <li>1 ano de acesso</li>
+        <li>Suporte 24/7 exclusivo</li>
+        <li>Consulta farmacêutica + nutri + treino</li>
+    </ul>
+
+    <!-- CTA principal -->
+    <a href="#" class="cta-button" style="width: 100%; margin-bottom: .8rem;">
+        Garantir Minha Vaga
+    </a>
+</div>
 
     <!-- Footer -->
     <footer id="contact">
@@ -816,7 +899,7 @@ body::before {
                     <p>Transformando vidas através de imersões transformadoras de 30 dias. Seu potencial ilimitado começa aqui.</p>
                     <div class="social-links">
                         <a href="mailto:imersao30d@gmail.com" target="_blank" rel="noopener noreferrer">📧</a>
-                        <a href="https://wa.me/+5583981018240" target="_blank" rel="noopener noreferrer">📱</a>
+                        <a href="https://wa.me/+5583981018240 " target="_blank" rel="noopener noreferrer">📱</a>
                         <a href="#">💼</a>
                         <a href="#">🐦</a>
                     </div>
@@ -853,7 +936,7 @@ body::before {
         </div>
     </footer>
 
-    <!-- Dark Mode Toggle -->
+    <!-- Dark Mode Toggle - AGORA NO CANTO INFERIOR DIREITO -->
     <div class="dark-mode-toggle" id="darkModeToggle">
         <span id="darkModeIcon">🌙</span>
     </div>
